@@ -2,7 +2,7 @@
      <section class="card" :class="{ 'card-reverse': data.reverse }">
           <div class="card---photo">
                <img class="card---icon" src="../assets/icons/heart.png" alt="heart" />
-               <img class="card---img" :src="`./src/assets/imgs/${data.photoName}.jpg`" alt="photoOne" />
+               <img class="card---img" src="../assets/imgs/photoOne.jpg" alt="photoOne" />
           </div>
           <div class="card---content">
                <h1 class="card---content--title">{{ data.title }}</h1>
