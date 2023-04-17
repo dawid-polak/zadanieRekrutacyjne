@@ -1,0 +1,55 @@
+$primary-color: #bd9a64;
+
+//disply flex
+%flex {
+    display: flex;
+}
+
+//flex center horizontal
+%flex--horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+//flex center vertical
+%flex--vertical {
+    display: flex;
+    align-items: center;
+}
+
+//flex center vertical and horizontal
+%flex--vertical-horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    font-family: futura-pt, futura-pt-bold, sans-serif;
+
+    #app {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        .cards {
+            flex-flow: column;
+            width: 90%;
+            
+            .card {
+                width: 100%;
+                margin: 0;
+            }
+
+            .card-reverse {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

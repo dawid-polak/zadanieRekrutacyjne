@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: futura-pt, futura-pt-bold, sans-serif;
+}
+body #app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+  body .cards {
+    flex-flow: column;
+    width: 90%;
+  }
+  body .cards .card {
+    width: 100%;
+    margin: 0;
+  }
+  body .cards .card-reverse {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

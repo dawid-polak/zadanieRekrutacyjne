@@ -1,0 +1,28 @@
+{
+    "cards": [
+        {
+            "id": 0,
+            "title": "YOUR SPRING LOOK",
+            "description": "Daytime dressing pure&simple",
+            "link": "http://google.com",
+            "arrangement": "top",
+            "photoName": "photoOne"
+        },
+        {
+            "id": 2,
+            "title": "MODERN BUSINESS OUTFIT",
+            "description": "Smart casual for you",
+            "link": "http://google.com",
+            "arrangement": "top",
+            "photoName": "photoOne"
+        },
+        {
+            "id": 3,
+            "title": "YOUR SPRING LOOK",
+            "description": "Daytime dressing pure&simple",
+            "link": "http://google.com",
+            "arrangement": "top",
+            "photoName": "photoOne"
+        }
+    ]
+}
